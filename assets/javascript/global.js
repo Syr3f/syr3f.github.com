@@ -11,7 +11,7 @@ var Displayer = Class.create({
             'https://api.github.com/users/'+this._account+'/repos?callback=?',
             function (data, txtStatus, jqXHR) {
                 
-                alert(data);
+                alert(data.length);
             }
         );
     }
