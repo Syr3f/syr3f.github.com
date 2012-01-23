@@ -8,7 +8,7 @@ var Displayer = Class.create({
     showRepos: function () {
         
         jQuery.getJSON(
-            'https://api.github.com/users/'+this._account+'/repos',
+            'https://api.github.com/users/'+this._account+'/repos?jsoncallback=?',
             function (data, txtStatus, jqXHR) {
                 
                 alert(data);
