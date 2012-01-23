@@ -20,7 +20,7 @@ a:hover
     color: #333333;
 }
 
-#mainPanel
+.mainPanel
 {
     margin-top: 75px;
     margin-bottom: 100px;
@@ -39,7 +39,7 @@ a:hover
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
+/*
 #headerPanel
 {
     margin-top: 25px;
@@ -52,8 +52,8 @@ a:hover
     
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
-    border-radius: 10px; /* future proofing */
-    -khtml-border-radius: 10px; /* for old Konqueror browsers */
+    border-radius: 10px;
+    -khtml-border-radius: 10px;
 }
 
 a#piXedBookmarklet
@@ -76,9 +76,18 @@ a#piXedBookmarklet
 
 #mainLinksSection .articlesContainer
 {
-    /*
+
     background-color: #433f38;
-    */
+    
+}
+*/
+
+header h1 {
+    text-align: center;
+}
+
+article {
+    
 }
 
 footer
