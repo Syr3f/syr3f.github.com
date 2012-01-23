@@ -20,7 +20,7 @@ var Displayer = Class.create({
                     
                     var _url = _data[i].url;
                     var _name = _data[i].name;
-                    var _desc = _data[i].desc;
+                    var _desc = _data[i].description;
                     
                     _html += '<a href="'+_url+'" title="'+_desc+'">'+_name+'</a>: '+_desc+'<br>\n';
                 }
