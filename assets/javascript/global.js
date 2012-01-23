@@ -18,7 +18,7 @@ var Displayer = Class.create({
                 alert(data);
             },
             type: 'GET',
-            url: 'https://api.github.com/users/'+this._account+'/repos';
+            url: 'https://api.github.com/users/'+this._account+'/repos?callback=load';
         });
     }
 });
