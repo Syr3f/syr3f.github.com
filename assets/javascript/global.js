@@ -22,7 +22,7 @@ var Displayer = Class.create({
                     var _name = _data[i].name;
                     var _desc = _data[i].description;
                     
-                    _html += '<a href="'+_url+'" title="'+_desc+'">'+_name+'</a>: <sub>'+_desc+'</sub><br>\n';
+                    _html += '<a href="'+_url+'" title="'+_desc+'">'+_name+'</a>: <sub>'+_desc+'</sub><br>><br>\n';
                 }
                 
                 jQuery('#well-repos').append(_html);
