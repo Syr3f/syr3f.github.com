@@ -91,6 +91,10 @@ header h1 {
     margin-bottom: 50px;
 }
 
+#well-repos a {
+    font-weight: bold;
+}
+
 footer
 {
     background: transparent url( 'http://www.pixed.info/assets/images/grad-black-smooth-77.png' ) repeat-x bottom;
