@@ -14,8 +14,18 @@ var Displayer = Class.create({
                 var _meta = data.meta;
                 var _data = data.data;
                 
-                alert(_data.length);
+                var _html = '';
                 
+                for (var i=0; i<_data.length; i++) {
+                    
+                    var _url = _data[i].url;
+                    var _name = _data[i].name;
+                    var _desc = _data[i].desc;
+                    
+                    _html += '<a href="'+_url+'" title="'+_desc+'">'+_name+'</a>, ';
+                }
+                
+                jQuery('#well-repos').append(_html+'...');
             }
         );
     }
