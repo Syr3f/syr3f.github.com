@@ -11,10 +11,10 @@ var Displayer = Class.create({
             'https://api.github.com/users/'+this._account+'/repos?callback=?',
             function (data, txtStatus, jqXHR) {
                 
-                for (var _prop in data) {
-                    
-                    alert(_prop);
-                }
+                var _meta = data.meta;
+                var _data = data.data;
+                
+                alert(_data.length);
                 
             }
         );
