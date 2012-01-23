@@ -22,10 +22,10 @@ var Displayer = Class.create({
                     var _name = _data[i].name;
                     var _desc = _data[i].desc;
                     
-                    _html += '<a href="'+_url+'" title="'+_desc+'">'+_name+'</a>, ';
+                    _html += '<a href="'+_url+'" title="'+_desc+'">'+_name+'</a>: '+_desc+'<br>\n';
                 }
                 
-                jQuery('#well-repos').append(_html+'...');
+                jQuery('#well-repos').append(_html);
             }
         );
     }
